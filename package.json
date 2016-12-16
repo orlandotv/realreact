@@ -1,0 +1,17 @@
+{
+  "name": "realreact",
+  "version": "1.0.0",
+  "description": "Real time app in react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "real",
+    "time",
+    "example"
+  ],
+  "author": "",
+  "license": "ISC"
+}
