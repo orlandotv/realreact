@@ -1,29 +1,17 @@
 import React from 'react';
+import Theme from './Theme.jsx';
 
 class App extends React.Component {
     constructor() {
         super();
-        this.state = {
-            messages: [
-                'hello there how are You?',
-                'Im fine, and You?'
-            ]
-        };
-    }
-
-    getMessages() {
-        return this.state.messages.map((message, index) => {
-            return (
-                <p key={index}>{message}</p>
-            )
-        });
     }
 
     render() {
         return (
-            <div>{this.getMessages()}</div>
+            <Theme />
         );
     }
+
 }
 
 export default App;
