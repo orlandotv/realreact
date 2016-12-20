@@ -1,4 +1,6 @@
 import React from 'react';
+import Avatar from 'material-ui/Avatar';
+import { ListItem } from 'material-ui/List';
 
 class Message extends React.Component {
     constructor(props) {
@@ -7,7 +9,10 @@ class Message extends React.Component {
 
     render() {
         return (
-            <div>{this.props.message}</div>
+            <ListItem
+                leftAvatar={<Avatar src="http://i.forbesimg.com/media/lists/people/kevin-durant_416x416.jpg" />}
+                >{this.props.message}
+            </ListItem>
         );
     }
 }
